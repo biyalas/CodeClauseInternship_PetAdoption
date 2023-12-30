@@ -1,0 +1,149 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family:"Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+
+/* Navigaton Bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+    width: 40%;
+    transform: rotate(25deg);
+}
+
+/* Feature Section */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonal sections*/
+#testimonials{
+
+    text-align: center;
+    background-color: #ff4c68 ;
+    color: #fff;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+@media (max-widtg:1028){
+    .title-image{
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    padding-top: 5%;
+}
+#footer{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.sign{
+    width: 430px;
+    height: 550px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #ff4c68;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: black;
+}
+
+.sign .box{
+    border: 0.5px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .3rem;
+    background: #eee;
+    padding: .7rem 0;
+    color: black;
+    width: 90%;
+    text-align:left;
+    border-radius: .6rem;
+}
+
+.btn{
+    border: 0.5px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .3rem;
+    border-radius: .3rem;
+}
